@@ -41,9 +41,6 @@ const createPlane = async (req, res) => {
   if (!req.body.opacity) {
     errors.opacity = { messsage: 'Укажите вместимость' };
   }
-  if (req.body.opacity && req.body.opacity > 2) {
-    errors.opacity = { messsage: 'Вместимость не может быть больше 2' };
-  }
   if (!req.file) {
     errors.planeImage = { message: 'Пожалуйста, добавьте фото самолёта' };
   }

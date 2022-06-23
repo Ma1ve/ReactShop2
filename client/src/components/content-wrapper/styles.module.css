@@ -1,0 +1,10 @@
+.contentWrapper {
+  display: flex;
+  justify-content: center;
+  min-width: 1234px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0 300px;
+  position: relative;
+  z-index: 2;
+}
